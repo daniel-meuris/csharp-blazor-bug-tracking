@@ -1,3 +1,12 @@
 ﻿@page "/new-bug"
-<h3>NewBug</h3>
+@using System.Security.Cryptography.X509Certificates
+
+<h3>Add New Bug</h3>
+<EditForm Model="AddBug">
+
+</EditForm>
+
+@code{
+    public Bug AddBug=new Bug();
+}
 
